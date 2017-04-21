@@ -1,6 +1,6 @@
 
 **Reverse engineering Pergo Quickheat wireless kit**![Quickheat controller](./images/controller.jpg?raw=true "Quickheat controller")Examining the frequency using a low-cost SDR and gqrx, shows that the controller communicates on the 868 MHz band. It also gives the following assumptions:-	Static preamble-	No encryption-	Manchester line coding?
--  ASK or *FSK modulation![SDR](./images/pq_data.png?raw=true "SDR data")Next step, finding a suitable low-cost 868 MHz RF transceiver which supports different modulation.-	SI4463 -	CC1101...
+-  ASK or *FSK modulation![SDR](./images/pq_data.png?raw=true "SDR data")Next step, finding a suitable low-cost 868 MHz RF transceiver which supports different types of modulation.-	SI4463 -	CC1101...
 
 ...
 
